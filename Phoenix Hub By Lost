@@ -1,0 +1,73 @@
+local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
+
+local Window = Rayfield:CreateWindow({
+   Name = "Phoenix | By Lost",
+   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   LoadingTitle = "Phoenix Hub",
+   LoadingSubtitle = "by Lost",
+   Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+
+   DisableRayfieldPrompts = false,
+   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+
+   ConfigurationSaving = {
+      Enabled = true,
+      FolderName = nil, -- Create a custom folder for your hub/game
+      FileName = "Big Hub"
+   },
+})
+
+local Tab = Window:CreateTab("Animation Scripts", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "AquaMatrix",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitFin/AquaMatrix/refs/heads/AquaMatrix/AquaMatrix"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Face bang (Press Z to use)",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AKadminlol/Facefuck/refs/heads/main/CreditsbyAK"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "FE Hug R6 + R15 (Press H to use)",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/JSFKGBASDJKHIOAFHDGHIUODSGBJKLFGDKSB/fe/refs/heads/main/FEHUGG"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "FE Bang GUI",
+   Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/Kqy92WvV"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "GAZER FE ANIMATION EDITOR (R15)",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Gazer-Ha/Reimagined/refs/heads/main/FE%20Animation%20editor'))() 
+   end,
+})
+
+local Tab = Window:CreateTab("Chat Bypasser", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "UserCreated Bypasser V2",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/randomizedcomponent/UC/refs/heads/main/3307468c285f4fe535fb5d87b4b053e6.lua"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Extra Scripts", 4483362458) -- Title, Image
+
+local Button = Tab:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+   end,
+})
