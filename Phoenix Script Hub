@@ -2,29 +2,56 @@ local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
    Name = "Phoenix | By Lost",
-   Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
+   Icon = 0,
    LoadingTitle = "Phoenix Hub",
    LoadingSubtitle = "by Lost",
-   Theme = "Ocean", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Amethyst",
 
-   DisableRayfieldPrompts = false,
-   DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
+   DisableRayfieldPrompts = True,
+   DisableBuildWarnings = False,
 
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = nil, -- Create a custom folder for your hub/game
+      FolderName = nil,
       FileName = "Big Hub"
    },
 })
 
-local Tab = Window:CreateTab("Animation Scripts", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Blade Ball", 4483362458)
 
 local Button = Tab:CreateButton({
-   Name = "AquaMatrix",
+   Name = "Visual Blade ball",
    Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitFin/AquaMatrix/refs/heads/AquaMatrix/AquaMatrix"))()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1432c65d5efeb637abfdf3863013744c.lua"))()
    end,
 })
+
+local Tab = Window:CreateTab("Real Futbol 24", 4483362458)
+
+local Button = Tab:CreateButton({
+   Name = "Lumen HUB",
+   Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/68162aeb4f802539a1a36b0233227576.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Biggie HUB",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/bytepenguin0/biggie-hub/refs/heads/main/main.lua"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Brookhaven RP", 4483362458)
+
+local Button = Tab:CreateButton({
+   Name = "Salvatore",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RFR-R1CH4RD/Loader/main/Salvatore.lua"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Annoying Scripts", 4483362458)
 
 local Button = Tab:CreateButton({
    Name = "Face bang (Press Z to use)",
@@ -54,14 +81,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Button = Tab:CreateButton({
-   Name = "GAZER FE ANIMATION EDITOR (R15)",
-   Callback = function()
-        loadstring(game:HttpGet('https://raw.githubusercontent.com/Gazer-Ha/Reimagined/refs/heads/main/FE%20Animation%20editor'))() 
-   end,
-})
-
-local Tab = Window:CreateTab("Chat Bypasser", 4483362458) -- Title, Image
+local Tab = Window:CreateTab("Chat Bypassers", 4483362458)
 
 local Button = Tab:CreateButton({
    Name = "UserCreated Bypasser V2",
@@ -70,7 +90,28 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Tab = Window:CreateTab("Extra Scripts", 4483362458) -- Title, Image
+local Button = Tab:CreateButton({
+   Name = "Synergy Networks Bypasser",
+   Callback = function()
+        loadstring(game:HttpGet("https://github.com/Synergy-Networks/products/raw/main/BetterBypasser/loader.lua"))()
+   end,
+})
+
+local Tab = Window:CreateTab("Universal Scripts", 4483362458)
+
+local Button = Tab:CreateButton({
+   Name = "AquaMatrix",
+   Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitFin/AquaMatrix/refs/heads/AquaMatrix/AquaMatrix"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "GAZER FE ANIMATION EDITOR (R15)",
+   Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/Gazer-Ha/Reimagined/refs/heads/main/FE%20Animation%20editor'))() 
+   end,
+})
 
 local Button = Tab:CreateButton({
    Name = "Infinite Yield",
