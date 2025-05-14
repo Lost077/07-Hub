@@ -10,13 +10,6 @@ local Window = Rayfield:CreateWindow({
    DisableRayfieldPrompts = True,
    DisableBuildWarnings = False,
 
-   ConfigurationSaving = {
-      Enabled = true,
-      FolderName = nil,
-      FileName = "Big Hub"
-   },
-})
-
 local Tab = Window:CreateTab("Blade Ball", 4483362458)
 
 local Button = Tab:CreateButton({
@@ -68,7 +61,7 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "FE HUG FRONT + BACK",
+   Name = "FE HUG (R6)",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitFin/Animations/refs/heads/main/Front%20and%20Back%20Hug%20Tool"))()
    end,
@@ -84,14 +77,14 @@ local Button = Tab:CreateButton({
 local Tab = Window:CreateTab("Chat Bypassers", 4483362458)
 
 local Button = Tab:CreateButton({
-   Name = "UserCreated Bypasser V2",
+   Name = "UserCreated Chat Bypasser V2",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/randomizedcomponent/UC/refs/heads/main/3307468c285f4fe535fb5d87b4b053e6.lua"))()
    end,
 })
 
 local Button = Tab:CreateButton({
-   Name = "Synergy Networks Bypasser",
+   Name = "Synergy Networks Chat Bypasser",
    Callback = function()
         loadstring(game:HttpGet("https://github.com/Synergy-Networks/products/raw/main/BetterBypasser/loader.lua"))()
    end,
@@ -100,7 +93,7 @@ local Button = Tab:CreateButton({
 local Tab = Window:CreateTab("Universal Scripts", 4483362458)
 
 local Button = Tab:CreateButton({
-   Name = "AquaMatrix",
+   Name = "AquaMatrix Animations",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitFin/AquaMatrix/refs/heads/AquaMatrix/AquaMatrix"))()
    end,
