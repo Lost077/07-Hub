@@ -1,48 +1,14 @@
 local Rayfield = loadstring(game:HttpGet('https://sirius.menu/rayfield'))()
 
 local Window = Rayfield:CreateWindow({
-   Name = "Phoenix | By Lost",
+   Name = "07 | Mans",
    Icon = 0,
-   LoadingTitle = "Phoenix Hub",
-   LoadingSubtitle = "by Lost",
+   LoadingTitle = "07 HUB",
+   LoadingSubtitle = "by Mans",
    Theme = "Amethyst",
 
    DisableRayfieldPrompts = True,
    DisableBuildWarnings = False,
-
-local Tab = Window:CreateTab("Blade Ball", 4483362458)
-
-local Button = Tab:CreateButton({
-   Name = "Visual Blade ball",
-   Callback = function()
-        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1432c65d5efeb637abfdf3863013744c.lua"))()
-   end,
-})
-
-local Tab = Window:CreateTab("Real Futbol 24", 4483362458)
-
-local Button = Tab:CreateButton({
-   Name = "Lumen HUB",
-   Callback = function()
-        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/68162aeb4f802539a1a36b0233227576.lua"))()
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "Biggie HUB",
-   Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/bytepenguin0/biggie-hub/refs/heads/main/main.lua"))()
-   end,
-})
-
-local Tab = Window:CreateTab("Brookhaven RP", 4483362458)
-
-local Button = Tab:CreateButton({
-   Name = "Salvatore",
-   Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/RFR-R1CH4RD/Loader/main/Salvatore.lua"))()
-   end,
-})
 
 local Tab = Window:CreateTab("Annoying Scripts", 4483362458)
 
