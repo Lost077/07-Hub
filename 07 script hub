@@ -20,13 +20,6 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "FE Hug (H)",
-   Callback = function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/JSFKGBASDJKHIOAFHDGHIUODSGBJKLFGDKSB/fe/refs/heads/main/FEHUGG"))()
-   end,
-})
-
-local Button = Tab:CreateButton({
    Name = "FE HUG (R6)",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/ExploitFin/Animations/refs/heads/main/Front%20and%20Back%20Hug%20Tool"))()
@@ -43,16 +36,9 @@ local Button = Tab:CreateButton({
 local Tab = Window:CreateTab("Chat Bypassers", 4483362458)
 
 local Button = Tab:CreateButton({
-   Name = "UserCreated Chat Bypasser V2",
+   Name = "UserCreated Bypasser",
    Callback = function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/randomizedcomponent/UC/refs/heads/main/3307468c285f4fe535fb5d87b4b053e6.lua"))()
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "Synergy Networks Chat Bypasser",
-   Callback = function()
-        loadstring(game:HttpGet("https://github.com/Synergy-Networks/products/raw/main/BetterBypasser/loader.lua"))()
    end,
 })
 
